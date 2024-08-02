@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+
+}
+
+.front {
+    justify-self: flex-end;
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin-right: 5px;
+    box-shadow: 7px 7px 20px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 7px 20px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 20px -2px rgba(0, 0, 0, 0.75);
+    background-image: linear-gradient(to right bottom, #040382, #50bdfc, #040382);
+}
+
+.back {
+    justify-self: flex-start;
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin-left: 5px;
+    box-shadow: 7px 7px 20px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 7px 20px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 7px 20px -2px rgba(0, 0, 0, 0.75);
+    background-image: linear-gradient(to right bottom, #040382, #50bdfc, #040382);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 35px 0px 35px;
+}
+
+.bankname {
+    margin-top: 7px;
+    color: #E1E4EB;
+    font-size: 32px;
+    text-shadow: 3px 2px rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.logo {
+    color: #E1E4EB;
+    font-size: 30px;
+    text-shadow: 3px 2px rgb(55, 59, 59);
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img {
+    width: 90px;
+    margin-left: 15px;
+    margin-top: -25px;
+
+}
+
+.triangel {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 22.5px 25px 22.5px 0;
+    margin-left: 30px;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.number {
+    letter-spacing: 5.2px;
+    font-size: 23px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+
+.holdnum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.exp {
+    margin-top: -10px;
+    font-size: 15px;
+    color: white;
+    font-style: up;
+    text-transform: uppercase;
+
+}
+
+sub {
+    margin-left: 10px;
+    letter-spacing: 5px;
+    font-size: 15px;
+
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.bottom div {
+
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+}
+
+.bottom span {
+    letter-spacing: 5.2px;
+    font-size: 23px;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin-top: -5px;
+}
+
+aside {
+
+    display: flex;
+    margin-top: -40px;
+
+}
+
+.cercle1 {
+    background-color: #E4001A;
+    z-index: 2;
+}
+
+.cercle2 {
+    background-color: #EF991A;
+    margin-left: -20px;
+    z-index: 1;
+}
+
+/* จบบัตรตัวแรก */
+
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lineblack {
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    align-items: end;
+
+}
+
+.containline {
+    margin-top: 15px;
+}
+
+.containlinewhite {
+    display: flex;
+    flex-direction: row;
+}
+
+.linewhite {
+    width: 380px;
+    height: 45px;
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.linewhite div {
+    background-color: #81939e;
+    width: 100%;
+    height: 1px;
+}
+
+.code {
+    margin-top: 20px;
+    height: 35px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    padding-top: 8px;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    padding-bottom: -15px;
+    padding-left: -15px;
+    letter-spacing: 1px;
+
+}
+
+.foot {
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 2px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 125px;
+
+}
+
+/* จบบัตรใบที่2 */
+
+
+.containerinput {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 25px;
+    padding: 15px;
+
+    color: #D8D8D8;
+}
+
+.labe {
+    margin-right: 350px
+}
+
+.in {
+    border: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #D8D8D8;
+    width: 550px;
+    margin-left: 50px;
+    margin-bottom: 28px;
+    font-size: 1.8rem;
+    outline: 0 !important;
+    line-height: 2.55rem;
+}
+
+#bank {
+    margin-left: 30px;
+}
+
+.inputcon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 30px;
+    gap: 30px;
+
+    width: 550px;
+}
+
+.lastinput {
+    border: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #D8D8D8;
+    width: 232px;
+    margin-top: -15px;
+    font-size: 1.8rem;
+    outline: 0 !important;
+    line-height: 2.55rem;
+}
+
+button {
+    margin-top: 50px;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #5D90E2;
+    font-size: 17px;
+    color: white;
+    border-style: none;
+}
